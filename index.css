@@ -1,0 +1,68 @@
+@import './../component-sharebar';
+@import './worldif';
+
+:root {
+  --bgcolor: #313131;
+  --fontcolor: #6e7b82;
+}
+
+.gobbet {
+  border-bottom: solid 1px var(--bgcolor);
+  padding-bottom: 10px;
+  margin: 20px 0 20px 20px;
+  {
+    figure {
+      margin: 0;
+    }
+    figcaption {
+      color: var(--fontcolor);
+    }
+    img {
+      margin: 10px auto;
+      display: block;
+    }
+    h1 {
+      background: var(--bgcolor);
+      color: white;
+      height: 1.7em;
+      line-height: 1.8em;
+      font-size: 1.5em;
+    }
+    h1 span {
+      float: left;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .mnv-ec-share {
+      margin: auto;
+      text-align: center;
+
+    }
+  }
+}
+
+.mnv-ec-share-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.mnv-ec-share a {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 400px){
+  .gobbet {
+    margin: 20px 0 20px 0;
+    {
+      figcaption {
+        padding: 10px;
+      }
+      .mnv-ec-share {
+        padding: 0 10px;
+      }
+      figure img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
