@@ -1,5 +1,5 @@
 import React from 'react';
-import ShareBar from './../component-sharebar';
+import ShareBar from '@economist/component-sharebar';
 
 export default class Gobbet extends React.Component {
 

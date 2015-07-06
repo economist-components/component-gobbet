@@ -1,7 +1,7 @@
-import ImageCaption from './../component-imagecaption';
+import ImageCaption from '@economist/component-imagecaption';
 import React from 'react';
 import Gobbet from './index';
-import Icon from './../component-icon';
+import Icon from '@economist/component-icon';
 
 class WorldIfGobbet extends React.Component {
 
