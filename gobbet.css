@@ -1,6 +1,6 @@
 :root {
-  --bgcolor: #313131;
-  --fontcolor: #6e7b82;
+  --bgcolor: var(--Gobbet-title-background);
+  --fontcolor: var(--Gobbet-color);
 }
 
 .gobbet {
@@ -17,6 +17,7 @@
 .gobbet img {
   margin: 10px auto;
   display: block;
+  width: 100%;
 }
 .gobbet h1 {
   background: var(--bgcolor);
