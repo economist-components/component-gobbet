@@ -1,10 +1,5 @@
-:root {
-  --bgcolor: var(--Gobbet-title-background);
-  --fontcolor: var(--Gobbet-color);
-}
-
 .gobbet {
-  border-bottom: solid 1px var(--bgcolor);
+  border-bottom: solid 1px var(--Gobbet-title-background, #6e7b82);
   padding-bottom: 10px;
 }
 
@@ -12,7 +7,7 @@
   margin: 0;
 }
 .gobbet figcaption {
-  color: var(--fontcolor);
+  color: var(--Gobbet-color, #059486);
 }
 .gobbet img {
   margin: 10px auto;
@@ -20,7 +15,7 @@
   width: 100%;
 }
 .gobbet h1 {
-  background: var(--bgcolor);
+  background: var(--Gobbet-title-background, #6e7b82);
   color: white;
   height: 1.7em;
   line-height: 1.8em;
