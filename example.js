@@ -20,7 +20,7 @@ const customSharebar = {
       },
     },
     {
-      href: 'https://twitter.com/intent/tweet?url=http://www.google.com',
+      href: 'https://twitter.com/intent/tweet?url=http://www.ubmedia.com',
       title: 'Share on Twitter',
       className: 'twitter',
       type: 'twitter',
