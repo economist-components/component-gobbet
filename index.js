@@ -5,10 +5,10 @@ export default class Gobbet extends React.Component {
 
   static get propTypes() {
     return {
-      title: React.PropTypes.string,
-      children: React.PropTypes.string,
-      showShareBar: React.PropTypes.string,
-      sharebar: React.PropTypes.string,
+      title: React.PropTypes.node,
+      children: React.PropTypes.element,
+      showShareBar: React.PropTypes.bool,
+      sharebar: React.PropTypes.object,
     };
   }
 
