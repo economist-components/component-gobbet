@@ -8,6 +8,9 @@
 }
 .gobbet figcaption {
   color: var(--Gobbet-color, #059486);
+  line-height: 22px;
+  font-family: Neutra2Display;
+  font-weight: bold;
 }
 .gobbet img {
   margin: 10px auto;
@@ -25,6 +28,8 @@
   float: left;
   margin-left: 5px;
   margin-right: 5px;
+  font-family: Neutra2Display;
+  font-weight: normal;
 }
 .gobbet .mnv-ec-share {
   margin: auto;
