@@ -6,6 +6,13 @@
 .gobbet figure {
   margin: 0;
 }
+
+.article-body .gobbet {
+  clear: both;
+  float: right;
+  width: 290px;
+}
+
 .gobbet figcaption {
   color: var(--Gobbet-color, #059486);
   line-height: 22px;
@@ -42,6 +49,10 @@
 }
 .mnv-ec-share a {
   margin: 0 !important;
+}
+
+.gobbet .worldif-logo {
+  width: 54px;
 }
 
 @media screen and (max-width: 400px){
