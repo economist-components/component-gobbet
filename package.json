@@ -68,7 +68,8 @@
     "serve": "component-devserver .",
     "test": "npm run test:base -- -R tap",
     "test:base": "mocha -r babel/register -r @economist/component-testharness",
-    "test:watch": "npm run test:base -- -wR min"
+    "test:watch": "npm run test:base -- -wR min",
+    "build": "npm-assets ."
   },
   "dependencies": {
     "@economist/component-icon": "^2.1.0",
@@ -88,6 +89,7 @@
     "eslint-plugin-react": "^2.6.3",
     "minifyify": "^7.0.1",
     "mocha": "^2.2.5",
+    "npm-assets": "^0.1.0",
     "pre-commit": "^1.0.10"
   },
   "pre-commit": [
