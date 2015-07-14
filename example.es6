@@ -13,7 +13,7 @@ const customSharebar = {
       href: 'http://www.facebook.com/sharer/sharer.php?u=http://www.google.com',
       title: 'Share on Facebook',
       className: 'fb',
-      type: 'facebook',
+      icon: 'facebook',
       s: {
         events: 'event76',
       },
@@ -22,7 +22,7 @@ const customSharebar = {
       href: 'https://twitter.com/intent/tweet?url=http://www.ubmedia.com',
       title: 'Share on Twitter',
       className: 'twitter',
-      type: 'twitter',
+      icon: 'twitter',
       s: {
         events: 'event31',
       },
