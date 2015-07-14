@@ -14,11 +14,9 @@
   },
   "main": "index.js",
   "files": [
-    "index.js",
-    "index.css",
-    "gobbet.css",
-    "right.css",
-    "palette.css"
+    "*.js",
+    "*.css",
+    "assets/*"
   ],
   "eslintConfig": {
     "extends": "strict/react"
@@ -62,17 +60,16 @@
     "lint_opts": "--ignore-path .gitignore --ext .es6"
   },
   "scripts": {
+    "build": "npm-assets .",
     "lint": "eslint $npm_package_config_lint_opts .",
     "prepublish": "babel index.es6 --stage=0 --loose > index.js",
     "provision": "devpack-configure ./package.json",
     "serve": "component-devserver .",
     "test": "npm run test:base -- -R tap",
     "test:base": "mocha -r babel/register -r @economist/component-testharness",
-    "test:watch": "npm run test:base -- -wR min",
-    "build": "npm-assets ."
+    "test:watch": "npm run test:base -- -wR min"
   },
   "dependencies": {
-    "@economist/component-icon": "^2.1.0",
     "@economist/component-sharebar": "^1.1.1",
     "react": "^0.13.3"
   },
