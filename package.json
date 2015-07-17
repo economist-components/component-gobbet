@@ -45,7 +45,7 @@
       {
         "contents": "chai.should();mocha.setup('bdd');"
       },
-      "/test/index.es6?debug&external=react",
+      "/test/index.es6?babelify&debug&external=react",
       {
         "contents": "mocha.checkLeaks();mocha.run();"
       }
@@ -74,7 +74,7 @@
     "react": "^0.13.3"
   },
   "devDependencies": {
-    "@economist/component-devpack": "^2.1.1",
+    "@economist/component-devpack": "^2.5.0",
     "@economist/component-devserver": "^2.0.0",
     "@economist/component-imagecaption": "^1.1.0",
     "@economist/component-testharness": "^1.1.0",
