@@ -10,7 +10,7 @@
 .Gobbet--header-title {
   color: #fff;
   margin: 0 0 0 10px;
-  width: clac(50% -10px);
+  width: calc(50% -10px);
 }
 .Gobbet--header .default-state {
   background: none;
