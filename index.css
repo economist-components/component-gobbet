@@ -1,3 +1,16 @@
 @import './palette';
 @import '@economist/component-sharebar';
-@import './gobbet';
+
+.Gobbet--header {
+  overflow: hidden;
+}
+.Gobbet--header-title {
+  float: left;
+}
+.Gobbet--header-aside {
+  float: right;
+}
+.Gobbet--conatiner-body img {
+  width: 100%;
+  height: auto;
+}

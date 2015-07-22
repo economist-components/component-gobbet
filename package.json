@@ -25,7 +25,8 @@
     "example": "./example.es6",
     "css": [
       "/node_modules/mocha/mocha.css",
-      "/index.css"
+      "/index.css",
+      "/example.css"
     ],
     "js": [
       "/node_modules/react/react.js?browserify&expose=react",
