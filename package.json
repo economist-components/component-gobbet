@@ -71,7 +71,7 @@
     "test:watch": "npm run test:base -- -wR min"
   },
   "dependencies": {
-    "@economist/component-sharebar": "^1.2.6",
+    "@economist/component-sharebar": "^1.3.0",
     "react": "^0.13.3"
   },
   "devDependencies": {
