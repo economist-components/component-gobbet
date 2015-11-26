@@ -1,2 +1,2 @@
 # component-gobbet
-> Accompanying text for an article
+> Accompanying content for an article
