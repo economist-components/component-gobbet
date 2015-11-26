@@ -1,1 +1,1 @@
-describe('A suite', () => {});
+"use strict";

@@ -1,3 +1,2 @@
-# component-sharebar
-
-React component that creates a sharebar for the main socials website
+# component-gobbet
+> Accompanying text for an article
