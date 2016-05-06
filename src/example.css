@@ -1,0 +1,29 @@
+@import './';
+
+
+/* stylelint-disable selector-no-type */
+/* it's only the example! */
+
+body {
+  font-smoothing: antialiased;
+}
+
+/* stylelint-enable selector-no-type */
+
+.gobbet {
+  margin: 0 auto;
+}
+
+.gobbet__title {
+  display: inline-block;
+}
+
+.gobbet__title--left {
+  margin: 0 5px;
+}
+
+.gobbet__title--right {
+  display: inline-block;
+  padding: 0 5px;
+  background-color: #e3120b;
+}

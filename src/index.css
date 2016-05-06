@@ -1,0 +1,48 @@
+@import '@economist/component-typography';
+
+:root {
+  --gobbet-title-background: var(--grey, #6e7b82);
+  --gobbet-color: var(--green, #059486);
+}
+
+.gobbet {
+  width: 290px;
+  line-height: 0;
+  background: var(--gobbet-color);
+}
+
+.gobbet--right {
+  float: right;
+  margin: 0 0 26px 35px;
+}
+
+.gobbet__header {
+  background: var(--gobbet-title-background);
+}
+
+/* stylelint-disable value-keyword-case */
+/* fonts are from another component */
+
+.gobbet__header-title {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: EconSans;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* stylelint-enable value-keyword-case */
+
+.gobbet__body {
+  width: 100%;
+  height: auto;
+}
+
+.gobbet__figure {
+  margin: 0;
+  text-align: center;
+}
