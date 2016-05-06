@@ -1,5 +1,5 @@
+@import '@economist/component-typography';
 @import './';
-
 
 /* stylelint-disable selector-no-type */
 /* it's only the example! */
@@ -14,9 +14,19 @@ body {
   margin: 0 auto;
 }
 
+/* stylelint-disable value-keyword-case */
+/* fonts are from another component */
+
 .gobbet__title {
   display: inline-block;
+  color: #fff;
+  font-family: EconSans;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
+/* stylelint-enable value-keyword-case */
 
 .gobbet__title--left {
   margin: 0 5px;

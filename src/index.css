@@ -1,14 +1,13 @@
-@import '@economist/component-typography';
-
 :root {
-  --gobbet-title-background: var(--grey, #6e7b82);
-  --gobbet-color: var(--green, #059486);
+  --gobbet__header--background-color: var(--grey, #6e7b82);
+  --gobbet--background-color: var(--green, #059486);
+  --gobbet__header-title--font-size: var(--font-size, 34px);
 }
 
 .gobbet {
   width: 290px;
   line-height: 0;
-  background: var(--gobbet-color);
+  background: var(--gobbet--background-color);
 }
 
 .gobbet--right {
@@ -17,25 +16,15 @@
 }
 
 .gobbet__header {
-  background: var(--gobbet-title-background);
+  background: var(--gobbet__header--background-color);
 }
-
-/* stylelint-disable value-keyword-case */
-/* fonts are from another component */
 
 .gobbet__header-title {
   margin: 0;
   padding: 0;
-  color: #fff;
-  font-family: EconSans;
-  font-size: 34px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-size: var(--gobbet__header-title--font-size);
   line-height: 1;
-  text-transform: uppercase;
 }
-
-/* stylelint-enable value-keyword-case */
 
 .gobbet__body {
   width: 100%;
