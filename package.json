@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/the-economist-editorial/gobbet.git"
+    "url": "git+ssh://git@github.com:economist-components/component-gobbet.git"
   },
   "scripts": {
     "access": "npm-run-all --parallel access:*",
