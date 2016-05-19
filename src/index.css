@@ -1,0 +1,37 @@
+:root {
+  --gobbet__header--background-color: var(--grey, #6e7b82);
+  --gobbet--background-color: var(--green, #059486);
+  --gobbet__header-title--font-size: var(--font-size, 34px);
+}
+
+.gobbet {
+  width: 290px;
+  line-height: 0;
+  background: var(--gobbet--background-color);
+}
+
+.gobbet--right {
+  float: right;
+  margin: 0 0 26px 35px;
+}
+
+.gobbet__header {
+  background: var(--gobbet__header--background-color);
+}
+
+.gobbet__header-title {
+  margin: 0;
+  padding: 0;
+  font-size: var(--gobbet__header-title--font-size);
+  line-height: 1;
+}
+
+.gobbet__body {
+  width: 100%;
+  height: auto;
+}
+
+.gobbet__figure {
+  margin: 0;
+  text-align: center;
+}
